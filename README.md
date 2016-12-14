@@ -14,11 +14,13 @@ together a template that can be used to deploy a basic Go application.
 2. Add this as an upstream repository
 
     git remote add upstream -m master git://github.com/chio-nzgft/openshift-SVGO-Server.git
+    
     git pull -s recursive -X theirs upstream master
 
 3. Push to your OpenShift repository
    
     git commit -a -m "svgo openshift application"   
+    
     git push
 
 
