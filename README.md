@@ -1,5 +1,5 @@
-How to Run Go on OpenShift
-==========================
+How to Run Go-SVGO on OpenShift
+===============================
 
 OpenShift is a great PaaS offering by Red Hat. At the moment 
 Go is not currently on the supported platform list. However Red Hat 
@@ -25,7 +25,7 @@ together a template that can be used to deploy a basic Go application.
 
 4. Add this as an upstream repository
 
-    git remote add upstream -m master git://github.com/gcmurphy/golang-openshift.git  
+    git remote add upstream -m master git://github.com/chio-nzgft/openshift-SVGO-Server.git
     git pull -s recursive -X theirs upstream master
 
 5. Build the source and copy the output to your bin directory (updated for Go version 1)
