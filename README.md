@@ -7,9 +7,13 @@ have kindly provided a DIY cartridge to run whatever you want on the
 platform. As Go is one of my favourite languages I thought I'd put 
 together a template that can be used to deploy a basic Go application. 
 
-1. Create a new application 
+1. Create a new application like golang
 
-    rhc-create-app --app *your-appname* --type diy-0.1 --rhlogin *your-login*
+    rhc-create-app --app *golang* --type diy-0.1 --rhlogin *your-login*
+
+2. pull your-app like
+  
+   git pull ssh://5847da19223232222222@golang-nzgft.rhcloud.com/~/git/golang.git/
 
 2. Add this as an upstream repository
 
