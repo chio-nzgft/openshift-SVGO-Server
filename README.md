@@ -9,7 +9,7 @@ together a template that can be used to deploy a basic Go application.
 
 1. Create a new application like golang
 
-    rhc-create-app --app *golang* --type diy-0.1 --rhlogin *your-login*
+    rhc app create golang diy
 
 2. pull your-app like
   
