@@ -9,23 +9,23 @@ together a template that can be used to deploy a basic Go application.
 
 1. Create a new application like golang
 
-    rhc app create golang diy
+       rhc app create golang diy
 
 2. pull your-app like
   
-   git pull ssh://5847da19223232222222@golang-nzgft.rhcloud.com/~/git/golang.git/
+       git pull ssh://5847da19223232222222@golang-nzgft.rhcloud.com/~/git/golang.git/
 
 2. Add this as an upstream repository
 
-    git remote add upstream -m master git://github.com/chio-nzgft/openshift-SVGO-Server.git
+       git remote add upstream -m master git://github.com/chio-nzgft/openshift-SVGO-Server.git
     
-    git pull -s recursive -X theirs upstream master
+       git pull -s recursive -X theirs upstream master
 
 3. Push to your OpenShift repository
    
-    git commit -a -m "svgo openshift application"   
+       git commit -a -m "svgo openshift application"   
     
-    git push
+       git push
 
 
 4. You are good to Go! You can read more about the OpenShift DIY cartridge
