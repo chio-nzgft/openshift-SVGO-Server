@@ -29,7 +29,8 @@ together a template that can be used to deploy a basic Go application.
 
 
 4. You are good to Go! You can read more about the OpenShift DIY cartridge
-http://golang-nzgft.rhcloud.com/
+
+![alt tag](https://pic.pimg.tw/echochio/1481189806-1192089371_n.png)
 
 5. you can rewrite service/mian.go and rebuid it .
 
